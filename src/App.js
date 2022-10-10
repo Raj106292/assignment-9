@@ -20,6 +20,9 @@ const router = createBrowserRouter([
       },
       {
         path:'/home',
+        loader: async () => {
+          return fetch('https://openapi.programming-hero.com/api/quiz')
+        },
         element: <Home></Home>,
       },
       {
@@ -40,7 +43,7 @@ const router = createBrowserRouter([
 
 function App() {
   return (
-    <div className="App">
+    <div>
       <RouterProvider router={router} />
     </div>
   );

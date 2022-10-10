@@ -1,0 +1,23 @@
+.quiz-section img {
+    width: 250px;
+    height: 250px;
+    background-color: black;
+    border-radius: 10px;
+}
+
+.quiz-section{
+    width: 260px;
+    height: 350px;
+    border: 2px solid gray;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.start-btn {
+    border: 2px solid black;
+    width: 120px;
+    padding: 2px;
+    border-radius: 10px;
+    background-color: orangered;
+    color: antiquewhite;
+}
