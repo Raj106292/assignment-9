@@ -1,13 +1,19 @@
 import React from 'react';
 import { useLoaderData } from 'react-router-dom';
+import Questions from './Questions';
 
 const Topics = () => {
 
-    const getData = useLoaderData();
+    const getQuestionData = useLoaderData();
+    const getAllData = getQuestionData.data;
+    const getQuestions = getAllData.questions;
+    console.log(getQuestions);
 
     return (
         <div>
-            <h3>Hello From Topics</h3>
+           {
+            getQuestions.map(questions => <Questions key={questions.id} questions={questions}></Questions>)
+           } 
         </div>
     );
 };
