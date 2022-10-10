@@ -22,9 +22,6 @@ const Header = () => {
                         <Link to='/home'>Home</Link>
                     </div>
                     <div className='px-3 font-bold'>
-                        <Link to='/topics'>Topics</Link>
-                    </div>
-                    <div className='px-3 font-bold'>
                         <Link to='/statistics'>Statistics</Link>
                     </div>
                     <div className='px-3 font-bold'>
