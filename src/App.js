@@ -2,6 +2,7 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import './App.css';
 import Blog from './Components/Blog';
 import Home from './Components/Home';
+import NotFound from './Components/NotFound';
 import Statistics from './Components/Statistics';
 import Topics from './Components/Topics';
 import Main from './Layout/Main';
@@ -40,6 +41,10 @@ const router = createBrowserRouter([
         path:'/blog',
         element: <Blog></Blog>,
       },
+      {
+        path: '/*',
+        element: <NotFound></NotFound>,
+      }
     ]
   }
 ])
