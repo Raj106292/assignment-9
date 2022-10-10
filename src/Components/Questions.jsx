@@ -7,11 +7,14 @@ const Questions = ({ questions }) => {
     const { id, question, options, correctAnswer } = questions;
 
     return (
-        <div className='all-question mt-8'>
+        <div className='all-question mt-8 rounded-md'>
             <p dangerouslySetInnerHTML={{__html: question}}></p>
             <div className='grid grid-cols-2'>
                 {
-                    options.map((option, idx) => <Options key={idx} option={option}></Options>)
+                    options.map((option, idx) => <Options 
+                    key={idx} 
+                    option={option}
+                    correctAnswer={correctAnswer}></Options>)
                 }
             </div>
         </div>
