@@ -29,7 +29,7 @@ const Questions = ({ questions }) => {
             </div>
             <ToastContainer
                     position="top-center"
-                    autoClose={2000}
+                    autoClose={1000}
                     hideProgressBar={false}
                     newestOnTop={false}
                     closeOnClick
@@ -37,7 +37,7 @@ const Questions = ({ questions }) => {
                     pauseOnFocusLoss
                     draggable
                     pauseOnHover
-                    theme="light" />
+                    theme="dark" />
         </div>
     );
 };

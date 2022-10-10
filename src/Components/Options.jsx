@@ -16,7 +16,7 @@ const Options = ({ option, correctAnswer }) => {
     return (
         <div>
             <button onClick={() => {checkAnswer(option)}} className='bg-white w-3/4 mt-4 mb-2 gap-2 p-2 rounded'>
-                <input type='radio' /> {option}
+                <input type='radio' name='foo' /> {option}
             </button>
             <ToastContainer 
             position="top-center"
