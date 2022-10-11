@@ -10,7 +10,7 @@ const Statistics = () => {
 
     return (
         <div className='mt-12 mx-auto w-1/2'>
-            <LineChart width={600} height={300} data={quizData} margin={{ top: 5, right: 20, bottom: 5, left: 0 }}>
+            <LineChart width={600} height={300} data={quizData} margin={{ top: 50, right: 20, bottom: 0, left: 0 }}>
                 <Line type="monotone" dataKey="total" stroke="#8884d8" />
                 <CartesianGrid stroke="#ccc" strokeDasharray="5 5" />
                 <XAxis dataKey="name" />
