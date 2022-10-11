@@ -68,3 +68,13 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+project name is motion quiz
+
+live site: https://gorgeous-druid-620205.netlify.app/home
+
+on doing this I learn more about the application of react router and get rid of the fear of using tailwind. at first i want to use react-bootstrap but on this way i can't use route to my react file.
+
+so i choose tailwind for the projects. by this assiognment some of important leakings noticed by me. I face problem on github private repo.
+
+know i am going to revise the milestone-9 again. because it is so important for us and this module helps me to explore more advanced section of web development.
